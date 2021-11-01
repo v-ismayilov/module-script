@@ -1,0 +1,13 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>module-compiler</title> 
+    <head> 
+    <body></body> 
+    <script>
+        document.body.addEventListener('load', () => {
+            const paramReader = new URLSearchParams(window.location.href); 
+            document.write(paramReader.get('content'));
+        }) 
+    </script> 
+</html> 
